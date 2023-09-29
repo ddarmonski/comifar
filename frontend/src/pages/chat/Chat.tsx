@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw"; 
 
 import styles from "./Chat.module.css";
-import Azure from "../../assets/Azure.svg";
+import Azure from "../../assets/gruppo_comifar.png";
 
 import {
     ChatMessage,
@@ -248,9 +248,9 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Welcome to Phoenix GPT</h1>
+                                <h1 className={styles.chatEmptyStateTitle}>Welcome to Comifar GPT</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>This chatbot bot is not trained with data</h2>
-                                <h2 className={styles.chatEmptyStateSubtitle}>Try version that knows about Phoenix <a href="https://aaaigptcs.azurewebsites.net/">Here</a></h2>
+            
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
